@@ -94,4 +94,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_heroDetail_rankingLabel" />
 
+    <Button
+        android:id="@+id/button_heroDetail_goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="22dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
