@@ -162,7 +162,7 @@ public class HeroesListActivity extends AppCompatActivity {
             }
         });
         heroAdapter.notifyDataSetChanged();
-        Toast.makeText(this, "Sort by rank clicked", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this , "Sort by rank clicked", Toast.LENGTH_SHORT).show();
     }
 
     private void sortByName() {
